@@ -1,0 +1,228 @@
+/* html{
+    margin: 0%;
+    padding: 0%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    box-sizing: border-box;
+  }
+  .body
+  {
+    font-size: 1.1vw;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+  } */
+
+.nn1 {
+  border: none;
+  /* color: white; */
+  border-radius: 10px;
+  max-width: 100px;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  vertical-align: middle;
+  justify-items: center;
+  justify-self: center;
+
+  background-color: aquamarine;
+  padding: 10px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.paperdiv {
+  float: right;
+}
+
+.paperi {
+  /* border: 1px solid transparent; */
+  border-radius: 4px;
+  color: rgb(29, 8, 8);
+  background-color: #3da3d5;
+  justify-self: right !important;
+  align-self: flex-end !important;
+  justify-items: right !important;
+  justify-content: right !important;
+  align-content: flex-end !important;
+  text-align: right !important;
+
+  /* border-color: #ccc; */
+
+  /* white-space: nowrap;
+  vertical-align: middle; */
+  /* display: inline-block; */
+  /* color: antiquewhite; */
+  padding: 2px 10px;
+
+  /* margin-top: 5%; */
+  font-size: 30px;
+  font-weight: 500;
+  /* line-height: 1.42857143; */
+}
+
+#features {
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.features {
+  margin-top: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #0f1583;
+  border-radius: 10px;
+  max-width: 95%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.features h1 {
+  background-color: #0f1583;
+  margin: 0;
+  padding: 1%;
+  color: #2ebaff;
+}
+
+.sticky {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7.5vw;
+  align-items: center;
+  position: absolute;
+  /* top: 0%;
+  left: 0%; */
+  z-index: 5;
+  position: fixed;
+  /* background-color: rgba(246, 246, 252, 0.945); */
+  /* background-color: rgb(223, 223, 247); */
+  background-color: #010440;
+  /* background-color: white; */
+}
+
+header a {
+  color: #3da3d5 !important;
+}
+header img {
+  /* margin-left: auto; */
+  height: 80px;
+  object-fit: cover;
+}
+
+/* .header-menu {
+ 
+} */
+
+@media screen and (max-width: 1500px) {
+  header {
+    font-size: 2vw;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  /* .sticky {
+    height: 20vw;
+  } */
+  .header-image .chakra-image {
+    width: 20vw;
+    height: auto;
+  }
+  .header-menu {
+    padding: 2px !important;
+    width: 98vw !important;
+    margin: 0 auto;
+  }
+  .flip-card {
+    font-size: 2vw;
+  }
+  .survey-flex,
+  .theme-flex {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin: auto;
+  }
+  .theme-reveal h2 {
+    padding-top: 10vh;
+  }
+  .theme-flex p {
+    margin: auto;
+    margin-bottom: 4vh;
+  }
+  .surveySwiper .chakra-image,
+  .surveySwiper .swiper-slide,
+  .theme-reveal .chakra-image {
+    width: 40vw;
+    height: auto;
+  }
+  .partners .chakra-image {
+    width: 30vw;
+    height: auto;
+  }
+  .surveySwiper .swiper-slide {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .surveySwiper {
+    width: 80vw !important;
+    height: 50vw;
+    margin-bottom: 20vw;
+  }
+  .theme-pic-flex {
+    width: 80vw;
+    margin-bottom: 20vw !important;
+    height: 40vh !important;
+    justify-content: space-between !important;
+  }
+  .header-menu {
+    padding: 2px !important;
+    width: 98vw !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .flip-card,
+  .two .flip-card,
+  .flip-card-inner {
+    height: 40vh !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /* .header-image .image 
+    {
+      size: ;
+    } */
+
+  .features h1 {
+    margin: 0;
+    padding: 1%;
+    font-size: 1rem;
+  }
+  .header-menu {
+    padding: 0;
+    width: 90vw !important;
+  }
+}

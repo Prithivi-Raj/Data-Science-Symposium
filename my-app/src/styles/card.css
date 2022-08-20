@@ -1,0 +1,98 @@
+.boxbox {
+  max-width: 400px;
+  /* width: fit-content; */
+  border-radius: 20px;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  /* background-color: blue; */
+}
+
+.card-img {
+  max-width: 500px;
+  height: auto;
+  width: 80%;
+  padding: 2;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.boxy {
+  padding: 1;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.cardtext {
+  font-size: 20;
+  letter-spacing: 1px;
+}
+
+.cardtext1 {
+  font-size: large;
+  background-color: aquamarine;
+  letter-spacing: 1px;
+  padding: 4px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.overview {
+  margin-top: 20px;
+  margin: 0px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #010326;
+}
+
+.centeridk {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+
+  height: auto;
+}
+.headh3 {
+  margin-top: 20px;
+  margin: 2px;
+  font-size: x-large;
+  text-align: center;
+  /* background-color: aquamarine; */
+}
+.unord {
+  text-align: left !important;
+}
+.descpa {
+  font-size: larger;
+  padding: 4px;
+  /* background-color: azure; */
+}
+
+.descpa1 {
+  font-size: larger;
+  padding: 1px;
+  margin: 1px;
+  /* background-color: azure; */
+}
+
+.prize {
+  font-size: x-large;
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  /* background-color: azure; */
+}
+.lolbut {
+  /* background-color: teal; */
+  font-size: xx-large;
+  border-radius: 10px;
+  font-weight: 600;
+}
