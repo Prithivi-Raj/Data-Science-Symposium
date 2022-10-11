@@ -240,6 +240,7 @@ function Sales() {
 
         <h1 className="title">Keynote Lectures</h1>
         <section id="comp" >
+          
         <Lec/>
         <h1 className="titl">The Keynote Lecture will be live at (Virtual) ICSR Auditoriums at <a href='https://shaastra.org/'className='ati' target={'_blank'}>Shaastra</a> You can also catch the talk live on <a href='https://www.youtube.com/channel/UCgY2ugmW-BV2nMRFu-0qPZA'className='ati' target={'_blank'}>Shaastra's Youtube channel</a> </h1>
 
